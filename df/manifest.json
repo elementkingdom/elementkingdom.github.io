@@ -1,0 +1,19 @@
+{
+	"name": "Dual Flame",
+	"short_name": "Dual Flame",
+	"lang": "en-US",
+	"start_url": "/?home=true",
+	"display": "standalone",
+	"theme_color": "#333",
+	"background_color": "#333",
+	"orientation": "portrait",
+	"gcm_sender_id": "548099473344",
+	"icons": [
+		{
+			"src": "app-icon.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"density": 1
+	    }
+	]
+}

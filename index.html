@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Element of wings</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="font/fa/css/font-awesome.min.css">
+
+  <style>
+
+    @font-face {
+      font-family: MeretPro;
+      src:url(font/meretpro/MeretPro-Normal.woff) format("woff"),
+          url(font/meretpro/MeretPro-Normal.ttf) format("truetype");
+      font-style:normal;
+    }
+    @font-face {
+      font-family:MeretPro;
+      src:url(font/meretpro/MeretPro-SemiBold.woff) format("woff"),
+          url(font/meretpro/MeretPro-SemiBold.ttf) format("truetype");
+      font-style:bold;
+    }
+    @font-face{font-family:"FCKaiserCond";src:url("font/fckaiser/fckaiser_cond-medium-webfont.woff") format("woff"),url("font/fckaiser/fckaiser_cond-medium-webfont.ttf") format("truetype"),url("font/fckaiser/fckaiser_cond-medium-webfont.svg#FCKaiserCond") format("svg");font-weight:500;font-style:normal}
+    @font-face{font-family:"FCKaiserCond";src:url("font/fckaiser/fckaiser_cond-regular-webfont.woff") format("woff"),url("font/fckaiser/fckaiser_cond-regular-webfont.svg") format("svg"),url("font/fckaiser/fckaiser_cond-regular-webfont.ttf") format("opentype");font-style:normal;font-weight:400;font-stretch:normal}
+    @font-face{font-family:"FCKaiserCond";src:url("font/fckaiser/fckaiser_cond-extralight-webfont.woff") format("woff"),url("font/fckaiser/fckaiser_cond-extralight-webfont.svg") format("svg"),url("font/fckaiser/fckaiser_cond-extralight-webfont.ttf") format("opentype");font-style:normal;font-weight:200;font-stretch:normal}
+
+    @font-face{font-family:"FCKaiserXCond";src:url("font/fckaiser/fckaiser_xcond-extralight-webfont.woff") format("woff"),url("font/fckaiser/fckaiser_xcond-extralight-webfont.svg") format("svg"),url("font/fckaiser/fckaiser_xcond-extralight-webfont.ttf") format("opentype");font-style:normal;font-weight:200;font-stretch:normal}
+    @font-face{font-family:"FCKaiserXCond";src:url("font/fckaiser/fckaiser_xcond-regular-webfont.woff") format("woff"),url("font/fckaiser/fckaiser_xcond-regular-webfont.svg") format("svg"),url("font/fckaiser/fckaiser_xcond-regular-webfont.ttf") format("opentype");font-style:normal;font-weight:400;font-stretch:normal}
+
+    @font-face{font-family:"FCZizouSans";src:url("font/fczizou/fczizou_sans-regular-webfont.woff") format("woff"),url("font/fczizou/fczizou_sans-regular-webfont.svg") format("svg"),url("font/fczizou/fczizou_sans-regular-webfont.ttf") format("opentype");font-style:normal;font-weight:400;font-stretch:normal}
+    @font-face{font-family:"FCZizouSans";src:url("font/fczizou/fczizou_sans-medium-webfont.woff") format("woff"),url("font/fczizou/fczizou_sans-medium-webfont.svg") format("svg"),url("font/fczizou/fczizou_sans-medium-webfont.ttf") format("opentype");font-style:normal;font-weight:500;font-stretch:normal}
+    @font-face{font-family:"FCZizouSans";src:url("font/fczizou/fczizou_sans-bold-webfont.woff") format("woff"),url("font/fczizou/fczizou_sans-bold-webfont.svg") format("svg"),url("font/fczizou/fczizou_sans-bold-webfont.ttf") format("opentype");font-style:normal;font-weight:700;font-stretch:normal}
+
+    @font-face{font-family:"FCZizouSlab";src:url("font/fczizou/fczizou_slab-thin-webfont.woff") format("woff"),url("font/fczizou/fczizou_slab-thin-webfont.svg") format("svg"),url("font/fczizou/fczizou_slab-thin-webfont.ttf") format("opentype");font-style:normal;font-weight:200;font-stretch:normal}
+    @font-face{font-family:"FCZizouSlab";src:url("font/fczizou/fczizou_slab-light-webfont.woff") format("woff"),url("font/fczizou/fczizou_slab-light-webfont.svg") format("svg"),url("font/fczizou/fczizou_slab-light-webfont.ttf") format("opentype");font-style:normal;font-weight:300;font-stretch:normal}
+    @font-face{font-family:"FCZizouSlab";src:url("font/fczizou/fczizou_slab-regular-webfont.woff") format("woff"),url("font/fczizou/fczizou_slab-regular-webfont.svg") format("svg"),url("font/fczizou/fczizou_slab-regular-webfont.ttf") format("opentype");font-style:normal;font-weight:400;font-stretch:normal}
+    @font-face{font-family:"FCZizouSlab";src:url("font/fczizou/fczizou_slab-medium-webfont.woff") format("woff"),url("font/fczizou/fczizou_slab-medium-webfont.svg") format("svg"),url("font/fczizou/fczizou_slab-medium-webfont.ttf") format("opentype");font-style:normal;font-weight:500;font-stretch:normal}
+    @font-face{font-family:"FCZizouSlab";src:url("font/fczizou/fczizou_slab-bold-webfont.woff") format("woff"),url("font/fczizou/fczizou_slab-bold-webfont.svg") format("svg"),url("font/fczizou/fczizou_slab-bold-webfont.ttf") format("opentype");font-style:normal;font-weight:700;font-stretch:normal}
+    @font-face{font-family:"FCZizouSlab";src:url("font/fczizou/fczizou_slab-black-webfont.woff") format("woff"),url("font/fczizou/fczizou_slab-black-webfont.svg") format("svg"),url("font/fczizou/fczizou_slab-black-webfont.ttf") format("opentype");font-style:normal;font-weight:800;font-stretch:normal}
+
+    @font-face{font-family:"FCKaiser";src:url("font/fckaiser/fckaiser-regular-webfont.woff") format("woff"),url("font/fckaiser/fckaiser-regular-webfont.svg") format("svg"),url("font/fckaiser/fckaiser-regular-webfont.ttf") format("opentype");font-style:normal;font-weight:400;font-stretch:normal}
+    @font-face{font-family:"FCKaiser";src:url("font/fckaiser/fckaiser-medium-webfont.woff") format("woff"),url("font/fckaiser/fckaiser-medium-webfont.svg") format("svg"),url("font/fckaiser/fckaiser-medium-webfont.ttf") format("opentype");font-style:normal;font-weight:500;font-stretch:normal}
+
+
+    body {
+      background: #0A0A0A;
+      margin: 0;
+      overflow: hidden;
+      font: 1em "Helvetica Neue";
+			letter-spacing: -.5px;
+			text-rendering: optimizeLegibility;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+    }
+
+    #content {
+      position: absolute;
+      overflow: auto;
+      color: #fff;
+			margin: 2.5rem auto;
+      right: 0;
+      left:  0;
+      z-index: 2;
+    }
+      header {
+        margin-top: 2.5rem;
+      }
+				#polygon {
+					margin-left: -13px;
+				}
+				#polygon path {
+					fill: transparent;
+					stroke: #fff;
+					stroke-width: 1px;
+				}
+					#polygon svg {
+						.transform: scale(.5);
+					}
+				h1 {
+	        border-top: 	 2px solid rgba(255, 255, 255, 0.8);;
+	        border-bottom: 2px solid rgba(255, 255, 255, .2);
+	        padding: .3em 0;
+					margin: 0;
+	        font: 200 4.5em FCKaiserXCond;
+	        text-transform: uppercase;
+				}
+      main {
+				padding-top: 3rem;
+        padding-right: 2.5rem;
+				color: rgba(255, 255, 255, .6)
+      }
+				main p {
+					font-size: 1rem;
+					line-height: 1.85rem;
+				}
+				main #signature {
+					opacity: .6;
+				}
+				main #links {
+					margin-top: 3rem;
+					font: 1rem "Font Awesome";
+				}
+					#links a {
+						border: 1px solid rgba(255, 255, 255, .3);
+						border-radius: 3px;
+						height: 1rem;
+						display: inline-block;
+						height: 40px;
+						width: 50px;
+						text-align: center;
+						margin-right: 3px;
+					}
+						#links a:hover {
+							border-color: #fff;
+						}
+						#links a .fa {
+							color: #fff;
+							font-size: 1.3rem;
+							text-align: center;
+							line-height: 40px;
+							display: inline-block;
+						}
+
+    #gloss {
+      background: url(gloss.svg) 0 0 / cover;
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      z-index: 100;
+			opacity: .8;
+			pointer-events: none;
+    }
+
+		@media (min-width: 1001px) {
+			#content {
+				max-width: 960px;
+	    }
+			main {
+				width: calc(50%);
+				float: right;
+			}
+	    #video {
+	      position: absolute;
+	      width: calc(50% - 7.5rem);
+	      overflow: hidden;
+	      opacity: .3;
+	      z-index: 1;
+	      margin: 2.5rem 0 0 2.5rem;
+	    }
+	    #video video,
+			#video img {
+	      height: calc(100vh - 5rem);
+	    }
+		}
+
+		@media (max-width: 1000px) {
+			#content {
+				margin: 2.5rem 55px;
+	    }
+			main {
+      }
+			#video {
+				display: none;
+			}
+		}
+  </style>
+</head>
+
+<body>
+
+  <div id="content">
+
+    <header>
+			<div id="polygon"></div>
+      <h1>Michael Lvnd</h1>
+    </header>
+
+    <main>
+      <p>I am a product designer tucked away in Oklahoma exploring the magic of life. I love kids, sushi, loose leaf tea, existential conversations and prime lenses. If I wasnt a designer I would be a yogi in the Himilayas.</p>
+			<!-- <p>I believe humanas naturally are integrated and harmonious entities. Becoming derailed from an obsticle is rooted in chaos which is unnatural and inorganic to our true nature. My job is to understand what is intuitive from what is entropy and to help the world around me evolve in a contructive manor.</p> -->
+      <p>I believe in a world where people naturally come together to create and evolve in harmony with ourselves, each other and the world around us.</p>
+			<!-- <p>I love cognitive science, psychology and metaphysical studies of the mind all for the purpose of creating unity through action.</p> -->
+
+			<object type="image/svg+xml" data="signature.svg" id="signature"></object>
+			<div id="links">
+				<a href="http://dribbble.com/_lvnd">
+					<i class="fa fa-dribbble"></i>
+				</a>
+				<a href="http://twitter.com/_lvnd">
+					<i class="fa fa-twitter"></i>
+				</a>
+				<a href="http://angel.co/_lvnd">
+					<i class="fa fa-angellist"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/michaellvnd">
+					<i class="fa fa-linkedin"></i>
+				</a>
+				<a href="mailto:redmyse@gmail.com">
+					<i class="fa fa-envelope"></i>
+				</a>
+			</div>
+    </main>
+
+  </div>
+
+  <div id="gloss"></div>
+  <div id="video">
+		<img src="10.jpg">
+  </div>
+
+
+	<script src="d3.v3.min.js"></script>
+	<script>
+	(function(){
+		var icosahedronFaces = function() {
+			var faces = [],
+					y = Math.atan2(1, 2) * 180 / Math.PI;
+			for (var x = 0; x < 360; x += 72) {
+				faces.push(
+					[[x +  0, -90], [x +  0,  -y], [x + 72,  -y]],
+					[[x + 36,   y], [x + 72,  -y], [x +  0,  -y]],
+					[[x + 36,   y], [x +  0,  -y], [x - 36,   y]],
+					[[x + 36,   y], [x - 36,   y], [x - 36,  90]]
+				);
+			}
+			return faces;
+		}
+		var width = 80,
+			height = 80,
+			velocity = [.003, .002],
+			t0 = Date.now(),
+			projection = d3.geo.orthographic()
+			.scale(height / 2 - 10),
+			svg = d3.select("#polygon").append("svg")
+					.attr("width", width)
+					.attr("height", height)
+					.attr("viewBox", "475 210 10 80"),
+			face = svg.selectAll("path")
+					.data(icosahedronFaces)
+					.enter().append("path")
+					.each(function(d) {
+						d.polygon = d3.geom.polygon(d.map(projection));
+					});
+		d3.timer(function() {
+			var time = Date.now() - t0;
+			projection.rotate([time * velocity[0], time * velocity[1]]);
+			face
+				.each(function(d) { d.forEach(function(p, i) { d.polygon[i] = projection(p); }); })
+				.style("display", function(d) { return d.polygon.area() > 0 ? null : "none"; })
+				.attr("d", function(d) { return "M" + d.polygon.join("L") + "Z"; });
+		});
+	})();
+	</script>
+</body>
+</html>
